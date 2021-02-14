@@ -1,0 +1,23 @@
+  h1{
+    color:indigo;
+  }
+  *{
+    border:solid;
+  }
+  .header{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+  }
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .item{
+    text-align: center;
+  }
+  .socialmedia{
+    display: flex;
+    justify-content: flex-end;
+  }
