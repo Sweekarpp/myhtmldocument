@@ -5,19 +5,22 @@
     border:solid;
   }
   .header{
-    background-color: red;
+    background-color: #ff0000;
     display: flex;
     justify-content: space-around;
   }
   .grid{
+    background-color: #ff0000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
   .item{
+    background-color: #ff0000;
     text-align: center;
   }
   .socialmedia{
+    background-color: #ff0000;
     display: flex;
     justify-content: flex-end;
   }
