@@ -1,26 +1,38 @@
   h1{
     color:indigo;
+    padding-left: 30px;
   }
   *{
     border:solid;
   }
   .header{
-    background-color: #ff0000;
+    background-color: #ffee00;
     display: flex;
     justify-content: space-around;
+    margin:30px;
   }
   .grid{
-    background-color: #ff0000;
+    background-color: #ffee00;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
   .item{
-    background-color: #ff0000;
+    background-color: #ffee00;
     text-align: center;
+    transform: translate(-50%,-50%);
+  }
+  .item:hover{
+    opacity: 0.8;
   }
   .socialmedia{
-    background-color: #ff0000;
+    background-color: #ffee00;
     display: flex;
     justify-content: flex-end;
+  }
+  a:link{
+    color: #000000;
+  }
+  a:visited{
+    color: #000000;
   }
